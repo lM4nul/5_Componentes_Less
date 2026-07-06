@@ -2,40 +2,52 @@ export default {
     footer: {
         empresa: {
             nombre: "Page",
-            descripcion: "Creamos experiencias digitales modernas ofreciendo soluciones tecnológicas de calidad."
+            descripcion: "5 componentes con el uso de MPA VITE"
         },
 
         contactos: [
             {
-                icono: "img",
-                texto: "San Pedro Sula, Honduras"
+                
+                texto: "Ángel Gabriel Lagos Sauceda"
             },
             {
-                icono: "img",
-                texto: "+504 9876-5432"
+                
+                texto: "Axel Odair Sánchez Ordóñez"
             },
             {
-                icono: "img",
-                texto: "contacto@page.com"
-            }
+                
+                texto: "Elieth Viviana Amador Lainez"
+            },
+            {
+                
+                texto: " Jose Manuel Ponce Diaz"
+            },
+            {
+                
+                texto: "Lizzie Sofía Ortiz Chávez"
+            },
+            {
+                
+                texto: "Mauricio Antonio Maradiaga Pérez"
+            },
         ],
 
         enlaces: [
             {
-                nombre: "Inicio",
-                url: "#"
+                nombre: "Hero Panel",
+                url: "#inicio"
             },
             {
-                nombre: "Servicios",
-                url: "#"
+                nombre: "Cards",
+                url: "#cards"
             },
             {
-                nombre: "Nosotros",
-                url: "#"
+                nombre: "Half Inverted Panel",
+                url: "#Grid"
             },
             {
-                nombre: "Contacto",
-                url: "#"
+                nombre: "Footer",
+                url: "#footer"
             }
         ],
 
