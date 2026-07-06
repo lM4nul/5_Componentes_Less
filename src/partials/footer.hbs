@@ -1,0 +1,34 @@
+<footer class="page-footer">
+    <div class="footer-container">
+
+        <div class="footer-brand">
+            <h2>{{footer.empresa.nombre}}</h2>
+            <p>{{footer.empresa.descripcion}}</p>
+        </div>
+
+        <div class="footer-contact">
+            <h3>Contacto</h3>
+
+            {{#each footer.contactos}}
+            <p>{{icono}} {{texto}}</p>
+            {{/each}}
+        </div>
+
+        <div class="footer-links">
+            <h3>Enlaces</h3>
+
+            <ul>
+                {{#each footer.enlaces}}
+                <li>
+                    <a href="{{url}}">{{nombre}}</a>
+                </li>
+                {{/each}}
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="footer-copy">
+        <p>{{footer.copyright}}</p>
+    </div>
+</footer>

@@ -1,0 +1,70 @@
+.page-footer {
+    background-color: @secondary-background-color;
+    color: @secondary-text-color;
+    margin-top: 50px;
+
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 40px 25px;
+        text-align: center;
+
+        @media (min-width: #break-points[tablet]) {
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: flex-start;
+            text-align: left;
+        }
+    }
+
+    .footer-brand,
+    .footer-contact,
+    .footer-links {
+        flex: 1;
+    }
+
+    h2,
+    h3 {
+        color: @secondary-text-color;
+        margin-bottom: 15px;
+    }
+
+    p {
+        color: @secondary-text-color;
+        line-height: 1.7;
+        margin-bottom: 8px;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    li {
+        margin-bottom: 10px;
+    }
+
+    a {
+        text-decoration: none;
+        color: @secondary-text-color;
+        transition: .3s ease;
+
+        &:hover {
+            color: @hover_header;
+        }
+    }
+
+    .footer-copy {
+        background: darken(@secondary-background-color, 5%);
+        text-align: center;
+        padding: 15px;
+        border-top: 1px solid fade(@secondary-text-color, 15%);
+
+        p {
+            margin: 0;
+            font-size: .9rem;
+        }
+    }
+}
