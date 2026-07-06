@@ -35,19 +35,19 @@ export default {
         enlaces: [
             {
                 nombre: "Hero Panel",
-                url: "#"
+                url: "#inicio"
             },
             {
                 nombre: "Cards",
-                url: "#"
+                url: "#cards"
             },
             {
                 nombre: "Half Inverted Panel",
-                url: "#"
+                url: "#Grid"
             },
             {
                 nombre: "Footer",
-                url: "#"
+                url: "#footer"
             }
         ],
 
