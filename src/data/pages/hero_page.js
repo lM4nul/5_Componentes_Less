@@ -1,8 +1,8 @@
 export default {
     hero: {
-        title: "Titulo",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        ctaText: "Ir a algo",
+        title: "5 Components con Less",
+        description: "Grupo E",
+        ctaText: "Ir a Cards",
         ctaUrl: "#"
     }
 };
