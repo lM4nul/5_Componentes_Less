@@ -3,12 +3,12 @@
         <div class="row justify-between align-items-center">
             
             <section class="col-4">
-                <h1>Titulo_Pagina</h1>
+                <h1>{{navbar.title_nav}}</h1>
             </section>
             
             <nav class="col-8 row justify-end">
                 <ul class="row justify-end gap-4">
-                    {{#each nav-data-set}}
+                    {{#each navbar.links}}
                         <li>
                             <a href="{{url}}" class="standard_padding">{{text}}</a>
                         </li>
